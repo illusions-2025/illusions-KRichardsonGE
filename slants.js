@@ -41,9 +41,9 @@ if (stillColour) //not 0 (0 is the illusion)
 {
     //16 in a row
     //6 rows witha space between them
-    //for ()
+    for (let i = 0; i <16;i++)
     {
-        ellipse(100,100,100,100)
+        ellipse(100*(i+1),100,100,100)
     }
 }
 }
