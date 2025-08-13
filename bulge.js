@@ -1,6 +1,7 @@
 
-let drawGridCheckBox;
+let drawGridCheckBox;//global variables
 let drawDotsCheckBox;
+
 //this function is called once at the start of a sketch
 function setup() {
 

@@ -1,5 +1,5 @@
 
-let colourMode;
+let colourMode;//global variable
 
 //this function is called once at the start of a sketch
 function setup() {
@@ -37,7 +37,15 @@ function setup() {
 //if stillColour is truthy, image will be black or white
 //but not both (ie no illusion)
 function drawCircles(stillColour){
-
+if (stillColour) //not 0 (0 is the illusion)
+{
+    //16 in a row
+    //6 rows witha space between them
+    //for ()
+    {
+        ellipse(100,100,100,100)
+    }
+}
 }
 
 //if stillColour is truthy, image will be black or white
