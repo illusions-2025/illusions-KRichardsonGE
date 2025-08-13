@@ -44,6 +44,7 @@ if (stillColour) //not 0 (0 is the illusion)
     for (let i = 0; i <16;i++)
     {
         ellipse(100*(i+1),100,100,100)
+        ellipse(200,100,100,100)
     }
 }
 }
