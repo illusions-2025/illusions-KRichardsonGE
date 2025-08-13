@@ -32,7 +32,6 @@ function setup() {
     //refer to centre
     rectMode(CENTER);
     ellipseMode(CENTER);
-
 }
 
 //if stillColour is truthy, image will be black or white
